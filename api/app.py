@@ -17,7 +17,7 @@ app=FastAPI(
 ##ollama llama3.2:1b
 llm=Ollama(model="llama3.2:1b")
 
-prompt2=ChatPromptTemplate.from_template("Write me an poem about {topic} for a 5 years child with 100 words")
+prompt2=ChatPromptTemplate.from_template("{topic}")
 
 add_routes(
     app,

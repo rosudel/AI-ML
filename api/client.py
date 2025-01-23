@@ -15,7 +15,7 @@ def get_ollama_response(input_text):
 
 
 st.title('Langchain Demo With llama3.2:1b API')
-input_text1=st.text_input("Write a poem on")
+input_text1=st.text_input("How can I assist you?")
 
 if input_text1:
     st.write(get_ollama_response(input_text1))
